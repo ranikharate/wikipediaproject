@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+.dropdown-content a:hover{
+    text-decoration: underline;
+} 
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 12px;
+    left: 13px;
+  }
+
+  /* Style links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(85, 85, 188);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Add a hover effect for links */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown menu when the button is hovered */
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+#container{
+    display: flex;
+    margin: 40px;
+}
+.menu{
+    font-size: 30px;
+    margin-top: 15px;
+}
+#wikipediaphoto{
+    font-size: 30px;
+    height: 60px;
+    margin: 0px 0px 0px 20px;
+}
+#wikipediatext{
+    height: 50px;
+}
+.searchbar{
+    height: 35px;
+    margin-left: 45px;
+    display: flex;
+    border: 1px gray solid;
+}
+.searchicon{
+    padding: 7px;
+    font-size: 120%;
+    color: grey;
+}
+form{
+    background: white;
+    display: flex;
+}
+form {
+    height: 25px;
+    width: 305px;
+    color: blue;
+}
+form input{
+    height: 25px;
+    width: 305px;
+    margin-top: 5px;
+    font-size: 90%;
+    border: none;
+    outline: none;
+}
+form button{
+    height: 35px;
+    width: 70px;
+    background:rgb(248, 244, 244);
+    border: 1px black solid;
+    outline: none;
+    color:black;
+    font-size: 80%;
+    letter-spacing: 1px;
+    cursor: pointer;
+} 
+#loginarea{
+    display: flex;
+    padding: 5PX;
+    margin-left: 5px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+#loginarea a{
+    height: 50px;
+    width: 160px;
+    text-decoration: none;
+    color: rgb(95, 95, 228);
+    margin-left: 13px;
+}
+#loginarea a:hover{
+    text-decoration: underline;
+}
+.dropdown{
+    display: grid;
+    place-items: center;
+}
+.group-menu{
+    display: flex;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #000;
+    color: black;
+}
+.dropdown1 .frame1 {
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+}
+
+.dropdown1:hover .frame1 {
+    display: block;
+    background-color: rgb(227, 233, 233);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+#right{
+    padding-left: 12%;
+}
+#left{
+    padding-right: 10%;
+}
+.black{
+    color: black;
+}
+.blue{
+    color: rgb(70, 70, 243);
+}
+#hr1{
+    margin-top: 10px;
+    border: rgb(195, 191, 191) solid;
+    margin-left: 161px;
+    margin-right: 120px;
+}
+#welcome{
+    height: 140px;
+    width: 960px;
+    background-color:whitesmoke;
+    border: 2px black solid;
+    margin: 20px 155px 0px;
+    align-content: center;
+    text-align: center;
+}
+#welcome a{
+    text-decoration: none;
+    color: rgb(70, 70, 243);
+}
+aside{
+    height: 1100px;
+    width: 963px;
+    margin: 15px ;
+    margin-left: 154px;
+    display: flex;    
+}
+aside a{
+    text-decoration: none;
+    color:  rgb(111, 111, 228);
+}
+#bigbox1{
+    height: 100%;
+    width: 50%;
+    border: 1px rgb(123, 238, 200) solid;
+    margin-right: 10px;
+    background-color: rgb(224, 242, 236) ;
+}
+#bigbox2{
+    height: 100%;
+    width: 50%;
+    border: 1px black solid;
+    background-color: rgb(207, 205, 254);
+}
+#smallbox1,#smallbox2{
+    width: 95%;
+    padding: 5px;
+    border: 1px rgb(61, 161, 128) solid;
+    margin: 10px;
+    background-color: rgb(205, 240, 228);
+}
+#smallbox2{
+    border: 1px rgb(145, 145, 202) solid;
+    background-color: rgb(181, 181, 251);
+}
+#flower{
+    height: 150px;
+    padding: 10px;
+    float: left;
+    clear: right;
+}
+p{
+    padding: 10px;
+}
+li{
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+#temple{
+    float: right;
+    text-align: center;
+}
+#templepic{
+    height: 180px;
+    padding: 10px;
+    float: right;
+    clear: right;
+}
+#Nobleprizewinner{
+    height: 160px;
+    margin: 10px;
+    float: right;
+    clear: right;
+}
+#Peter-Higgs{
+    float:right;
+    text-align: center;
+}
+#bigbox2 li{
+    padding-left: 15px;
+    padding-bottom: 5px;
+    
+}
+#horizontal-li{
+    padding: 5px;
+}
+#horizontal-li li{
+    display: inline;
+}
+#date li{
+    display: inline;
+}
+#rightside{
+    float: right;
+}
+#Black_hole{
+    height: 180px;
+    padding: 10px;
+    float: right;
+    clear: right;
+}
+#title2{
+    float: right;
+    text-align: center;
+    font-size: 13px;
+}
+#butterflybox{
+    height: 390px;
+    width: 963px;
+    border: 1px rgb(191, 148, 191) solid;
+    background-color: rgb(247, 222, 247);
+    margin: 0px 30px 0px 154px;
+}
+#butterflybox img{
+    height: 300px;
+    margin: 15px;
+}
+#para{
+    float: left;
+    clear: right;
+}
+#innerbox{
+    width: 95%;
+    padding: 5px;
+    border: 1px rgb(176, 88, 176) solid;
+    margin: 10px;
+    background-color:  rgb(243, 169, 243);
+}
+#paragraph{
+    margin: 40px 10px 0px 10px;
+}
+#paragraph1{
+    text-align: right;
+}
+#paragraph2{
+    text-align: end;
+}
+#areas{
+    height: 1094px;
+    width: 965px;
+    margin: 20px 20px 0px 154px;
+    border: 1px gainsboro solid;
+    background-color: white;
+    border-radius: 3px;
+}
+#areas a{
+    text-decoration: none;
+    color: rgb(80, 80, 217);
+}
+#box1,#languagebox{
+    width: 95%;
+    padding: 5px;
+    border: 1px gainsboro solid;
+    margin: 20px;
+    background-color:  rgb(237, 234, 237);
+} 
+#areas li{
+    margin: 8px 20px 5px ;
+}
+p{
+    margin: 8px;
+}
+#row1 img{
+    height: 40px;
+    margin: 17px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    height: 70px; 
+}
+
+.image {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: 44px;
+}
+
+.text {
+    flex: 2;
+}
+
+.text h4 {
+    margin: 0 0 0px; 
+}
+
+.text p {
+    margin-bottom: 10px; 
+    width: 225px;
+}
+#languagetext{
+    width:100%;
+}
+.horizontal-line-container {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.horizontal-line {
+    border: none;
+    height: 1px;
+    background-color: rgb(168, 163, 163);
+}
+
+.text-between {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0 10px;
+}
+.list{
+    width: auto;
+    white-space: none;
+    padding-left: 90px;
+    padding-right: 90px;     
+}
+.list li{
+    display:inline;
+    font-size: 13px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.list ul{
+    margin: 0px;
+}
+#languages {
+    display: flex;
+    justify-content: space-between;  
+    width: 150px; 
+    padding: 10px;
+    margin-left: 81%;
+}
+.icon {
+    margin-left: 10px; 
+}
+#last-line{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(99, 32, 207);
+}
+#last-list{
+    padding-left: 30px ;
+}
+#last-list a{
+    text-decoration: none;
+    color: rgb(99, 32, 207);
+    margin-right: 20px;
+    font-size: small;
+}
+#logos img{
+    float: right;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    height: 35px;
+}
